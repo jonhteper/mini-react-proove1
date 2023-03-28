@@ -15,7 +15,9 @@ Has the next screens:
 ## Run this project
 
 ```sh
+npm install
 npm start
 ```
+
  
 
