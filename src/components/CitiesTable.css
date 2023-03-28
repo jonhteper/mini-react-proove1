@@ -1,0 +1,11 @@
+@import "catrina/src/tables.css";
+.users__table {
+    width: 90%;
+}
+.users__table tr td:first-child {
+    text-align: left;
+}
+
+.users__table tr td:last-child, .users__table tr th:last-child{
+    text-align: right;
+}

@@ -1,0 +1,25 @@
+.Resources {
+  width: 90%;
+  height: calc(100vh - 80px);
+  text-align: left;
+}
+
+.Resources h3 {
+  margin-bottom: 7px;
+}
+.Resources h2, .Resources p {
+  margin-bottom: 25px;
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}

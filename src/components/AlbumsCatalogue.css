@@ -1,0 +1,19 @@
+.albums_catalogue {
+    padding: 1%;
+    width: 90%;
+    display: grid;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+    grid-auto-flow: dense;
+    height: 100%;
+}
+
+.albums_catalogue picture {
+    display: grid;
+    grid-template-rows: 300px 45px;
+    place-items: center;
+}
+
+.albums_catalogue picture img{
+    width: 250px;
+}
